@@ -1,0 +1,93 @@
+* {
+    font-size: 14px;
+    box-sizing: border-box;
+  }
+  
+  .main {
+    width: 600px;
+  }
+  
+  .news_section, .date, .news_list, .promo, .promo_banner, .search_widget, .search_logo, .search_input, .widget_section {
+    background-color: rgb(222, 222, 222);
+    margin-left: 20px;
+    margin-top: 15px;
+  }
+  
+  .news_section {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+  }
+  
+  .container {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  
+  .news {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+  }
+  
+  .promo {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .promo_banner {
+    height: 40px;
+  }
+  
+  .widget_item {
+    padding: 8px;
+  }
+  
+  .search_widget {
+    display: flex;
+    align-items: flex-start;
+  }
+  
+  .search_logo {
+    width: 80px;
+    height: 80px;
+    margin-right: 20px;
+  }
+  
+  .search_options {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+  }
+  
+  .search_item {
+    margin-right: 8px;
+  }
+  
+  .search_input {
+    height: 30px;
+  }
+  
+  .widget_section {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 300px;
+    margin-bottom: 20px;
+    padding: 10px;
+  }
+  
+  .weather {
+    height: 80px;
+    width: 80px;
+    border: 1px solid #000;
+    margin-bottom: 30px;
+    padding: 10px;
+  }
+  
+  .widget_item {
+    height: 110px;
+    width: 120px;
+    border: 1px solid #000;
+    margin-bottom: 20px;
+  }
